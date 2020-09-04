@@ -8,7 +8,7 @@ function HeaderNavbar() {
 
       <div class="header">
         <ul>
-          <li class="menu" id="menu">
+          <li class="menu">
             <Link
               to="menu"
               spy={true}
@@ -19,18 +19,18 @@ function HeaderNavbar() {
               Menu
             </Link>
           </li>
-          <li class="takeout" id="takeout">
+          <li class="contact">
             <Link
-              to="takeOut"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
-              Take Out
+              Contact
             </Link>
           </li>
-          <li class="ourStory" id="ourStory">
+          <li class="ourStory">
             <Link
               to="about"
               spy={true}
@@ -41,7 +41,7 @@ function HeaderNavbar() {
               About
             </Link>
           </li>
-          <li class="catering" id="catering">
+          <li class="catering">
             <Link
               to="catering"
               spy={true}

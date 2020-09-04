@@ -88,7 +88,7 @@ function MenuContainer() {
   ];
   return (
     <>
-      <div class="container" id="menu">
+      <div id="menu">
         <h2>Menu</h2>
         <div class="row top-row">
           {item.map((item) => {
