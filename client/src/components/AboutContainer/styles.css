@@ -1,0 +1,21 @@
+.about-history,
+.about-values,
+.about-promise {
+  background-color: rgb(73, 53, 33);
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin: 20px 10px;
+  position: relative;
+}
+.about-history h4,
+.about-values h4,
+.about-promise h4 {
+  color: white;
+  font-weight: bold;
+}
+.about-history p,
+.about-values p,
+.about-promise p {
+  color: whitesmoke;
+}

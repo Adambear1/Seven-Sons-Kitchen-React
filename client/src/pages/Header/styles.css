@@ -68,7 +68,7 @@ body {
     padding-left: 100px;
 } */
 .header li:nth-of-type(3) {
-  padding-left: 175px;
+  padding-left: 275px;
 }
 .logo {
   position: absolute;
@@ -422,7 +422,7 @@ body {
 
 @media (max-width: 466px) {
   .logo-sevensons {
-    margin-left: 75px !important;
+    margin-left: 40px !important;
   }
   .about,
   form {

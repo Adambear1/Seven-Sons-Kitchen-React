@@ -10,15 +10,7 @@ function MenuCards(props) {
             (#{props.index}){"  "} {props.name}
           </h3>
           <p class="item-detail">{props.description}</p>
-          <p class="card-footer">{props.price}</p>
-          <button
-            class="AddToOrder"
-            id={props.name}
-            value={props.price}
-            type="submit"
-          >
-            Add to Order!
-          </button>
+          <p class="card-footer">${props.price}</p>
         </div>
       </div>
     </div>

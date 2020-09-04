@@ -47,6 +47,12 @@
 .google-plus span {
   background-color: #db5a3c;
 }
+.phone span {
+  background-color: green;
+}
+.location span {
+  background-color: burlywood;
+}
 
 /* Icons */
 .icon-button i {
@@ -73,6 +79,12 @@
 .icon-button .icon-google-plus {
   color: #db5a3c;
 }
+.icon-button .icon-google-phone {
+  color: green;
+}
+.icon-button .icon-location {
+  color: burlywood;
+}
 .icon-button .icon-instagram,
 .icon-button .icon-facebook,
 .icon-button .icon-google-plus {
@@ -87,14 +99,38 @@
   .icon-name {
     font-size: 5px;
   }
+  .row-large {
+    margin: -10px 0;
+  }
 }
 @media (max-width: 380px) {
   .icon-name {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .row-large {
+    margin: -10px 0;
+  }
+}
+@media (max-width: 376px) {
+  .row-large {
+    margin: -10px 0 !important;
   }
 }
 @media (max-width: 415px) {
   .icon-name {
-    font-size: 20px;
+    font-size: 15px;
   }
+  .row-large {
+    margin: -10px 0;
+  }
+}
+
+.row-large {
+  margin: 15px 0;
+}
+
+.row-large p {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 25px;
 }
