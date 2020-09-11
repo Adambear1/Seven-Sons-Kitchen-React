@@ -432,3 +432,9 @@ body {
     width: 100% !important;
   }
 }
+
+@media (max-width: 376px) {
+  .logo-sevensons {
+    margin-left: 35px !important;
+  }
+}

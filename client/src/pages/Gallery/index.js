@@ -1,7 +1,7 @@
 import React from "react";
 
-function Catering() {
+function Gallery() {
   return <div></div>;
 }
 
-export default Catering;
+export default Gallery;
